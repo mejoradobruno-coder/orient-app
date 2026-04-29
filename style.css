@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background:#f7f7fb;
+    margin:0;
+    text-align:center;
+}
+
+header{
+    background:#cdb4db;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    background:#ffc8dd;
+    padding:15px;
+}
+
+nav button{
+    background:#bde0fe;
+    border:none;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.marco{
+    background:#ffd6e0;
+    margin:30px auto;
+    padding:25px;
+    width:80%;
+    border-radius:15px;
+    box-shadow:0 6px 10px rgba(0,0,0,0.1);
+}
+
+img{
+    width:150px;
+    margin-bottom:15px;
+}
+
+.pregunta{
+    margin:15px 0;
+    text-align:left;
+}
