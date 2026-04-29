@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIENT-APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ORIENT-APP</h1>
+    <p>Aprende Química, Matemáticas y Español de forma interactiva</p>
+</header>
+
+<nav>
+    <button onclick="cargarMateria('quimica')">Química</button>
+    <button onclick="cargarMateria('matematicas')">Matemáticas</button>
+    <button onclick="cargarMateria('espanol')">Español</button>
+</nav>
+
+<main>
+    <div class="marco">
+        <img id="imagenMateria" src="" alt="">
+        <div id="preguntas"></div>
+        <button onclick="calcularPuntaje()">Calcular puntaje</button>
+        <h2 id="resultado"></h2>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
